@@ -1,0 +1,120 @@
+body{
+    color: brown;
+    font-weight: 1000;
+  
+     background-color: #2B1B17;
+
+    text-align: center;
+    font-family: verdana;
+    text-shadow: 1px gold;
+        
+background: url(pilt.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p{
+    font-size: 100%;
+    
+}
+#paikneb{
+    
+    width: 300px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 140px;
+    padding: 3px;
+}
+#right{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:rgba(43,27,23,0.53);
+  position: relative;
+  
+  text-align: center;
+  line-height: 30px;
+  
+
+
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+}
+
+
+a:hover {
+    color: black;
+}
+select{
+  width: 170px;
+  height: 28px;
+  overflow: hidden;
+  border: brown 1px solid;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0px 0px 10px 1px brown;
+  box-shadow: inset 0px 0px 10px 1px brown;
+}
+
+textarea{
+    border: 1px solid brown;
+    border-radius: 4px;
+
+    overflow: hidden;
+      border: brown 1px solid;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+      -webkit-box-shadow: inset 0px 0px 10px 1px brown;
+  box-shadow: inset 0px 0px 10px 1px brown;
+}
+.myButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #DF7401), color-stop(1, yellow));
+	background:-moz-linear-gradient(top, #DF7401 5%, yellow 100%);
+	background:-webkit-linear-gradient(top, #DF7401 5%, yellow 100%);
+	background:-o-linear-gradient(top, #DF7401 5%, yellow 100%);
+	background:-ms-linear-gradient(top, #DF7401 5%, yellow 100%);
+	background:linear-gradient(to bottom, #DF7401 5%, yellow 100%);
+	background-color:#FFFF00;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid brown;
+	display:inline-block;
+	cursor:pointer;
+	color:brown;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.username{
+    background-color: yellow;
+    border: 1px solid brown;
+    border-radius: 4px;
+       overflow: hidden;
+      width: 170px;
+  height: 28px;
+      -webkit-border-radius: 3px;
+
+      -webkit-box-shadow: inset 0px 0px 10px 1px brown;
+  box-shadow: inset 0px 0px 10px 1px brown;
+    
+}
+.pilt{
+    background-image: url(logo.png);
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
+}
+
+h1{
+   color: brown;  
+}

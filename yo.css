@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+.pilt{
+    background-image: url(logo.png);
+    position: absolute;
+    width: 512px; /*the image width*/
+    height: 512px; /*the image height*/
+    margin-left: auto;
+    margin-right: auto;
+    
+}
